@@ -40,6 +40,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - orgins
 definitions:
   Profile:
