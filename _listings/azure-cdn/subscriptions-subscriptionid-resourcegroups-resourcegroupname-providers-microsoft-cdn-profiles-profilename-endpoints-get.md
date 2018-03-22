@@ -29,6 +29,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - endpoint
 definitions:
   Profile:
