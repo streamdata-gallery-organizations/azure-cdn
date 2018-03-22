@@ -31,6 +31,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - name availability
 definitions:
   Profile:
