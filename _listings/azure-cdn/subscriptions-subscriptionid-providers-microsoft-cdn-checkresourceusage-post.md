@@ -27,6 +27,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - resource usage
 definitions:
   Profile:
