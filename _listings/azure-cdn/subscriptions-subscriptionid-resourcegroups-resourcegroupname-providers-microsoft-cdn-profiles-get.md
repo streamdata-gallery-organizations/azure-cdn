@@ -26,6 +26,7 @@ paths:
         200:
           description: OK
       tags:
+      - cdn
       - profile
 definitions:
   Profile:
