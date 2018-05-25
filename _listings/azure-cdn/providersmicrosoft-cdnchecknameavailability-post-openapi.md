@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure CDN
-x-complete: 1
+x-complete: 0
 info:
-  title: CdnManagementClient
-  description: use-these-apis-to-manage-azure-cdn-resources-through-the-azure-resource-manager--you-must-make-sure-that-requests-made-to-these-resources-are-secure-
+  title: Azure CDN API Check Name Availability
+  description: Check the availability of a resource name. This is needed for resources
+    where name is globally unique, such as a CDN endpoint.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -668,50 +669,17 @@ paths:
       tags:
       - CDN
       - Name Availability
-  /subscriptions/{subscriptionId}/providers/Microsoft.Cdn/checkResourceUsage:
-    post:
-      summary: List Resource Usage
-      description: Check the quota and actual usage of the CDN profiles under the
-        given subscription.
-      operationId: ListResourceUsage
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-cdncheckresourceusage-post
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - CDN
-      - Resource Usage
-  /providers/Microsoft.Cdn/operations:
-    get:
-      summary: List Operations
-      description: Lists all of the available CDN REST API operations.
-      operationId: ListOperations
-      x-api-path-slug: providersmicrosoft-cdnoperations-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - CDN
-      - Operations
-  /providers/Microsoft.Cdn/edgenodes:
-    get:
-      summary: Edge Nodes List
-      description: Lists all the edge nodes of a CDN service.
-      operationId: EdgeNodes_List
-      x-api-path-slug: providersmicrosoft-cdnedgenodes-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - CDN
-      - Edge Node
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

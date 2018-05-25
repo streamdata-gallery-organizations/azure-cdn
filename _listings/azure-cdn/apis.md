@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure CDN
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoftcdnprofiles-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoft-cdnprofiles-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoftcdnprofiles-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoft-cdnprofiles-get-openapi.md
 - name: Azure CDN API Profiles List By Resource Group
   x-api-slug: azure-cdn-api
   description: Lists all of the CDN profiles within a resource group.
@@ -35,9 +35,9 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofiles-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofiles-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofiles-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofiles-get-openapi.md
 - name: Azure CDN API Profiles Get
   x-api-slug: azure-cdn-api
   description: Gets a CDN profile with the specified profile name under the specified
@@ -48,9 +48,9 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilename-get-openapi.md
 - name: Azure CDN API Profiles Create
   x-api-slug: azure-cdn-api
   description: Creates a new CDN profile with a profile name under the specified subscription
@@ -61,7 +61,7 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilename-put-openapi.md
 - name: Azure CDN API Profiles Update
   x-api-slug: azure-cdn-api
   description: Updates an existing CDN profile with the specified profile name under
@@ -72,7 +72,7 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilename-patch-openapi.md
 - name: Azure CDN API Profiles Delete
   x-api-slug: azure-cdn-api
   description: Deletes an existing CDN profile with the specified parameters. Deleting
@@ -84,9 +84,9 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilename-delete-openapi.md
 - name: Azure CDN API Profiles Generate Sso Uri
   x-api-slug: azure-cdn-api
   description: Generates a dynamic SSO URI used to sign in to the CDN supplemental
@@ -100,9 +100,9 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenamegeneratessouri-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenamegeneratessouri-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenamegeneratessouri-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenamegeneratessouri-post-openapi.md
 - name: Azure CDN API Profiles List Resource Usage
   x-api-slug: azure-cdn-api
   description: Checks the quota and actual usage of endpoints under the given CDN
@@ -113,9 +113,9 @@ apis:
   tags: CDN,Profile
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenamecheckresourceusage-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenamecheckresourceusage-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenamecheckresourceusage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenamecheckresourceusage-post-openapi.md
 - name: Azure CDN API Endpoints List By Profile
   x-api-slug: azure-cdn-api
   description: Lists existing CDN endpoints.
@@ -125,9 +125,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpoints-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpoints-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpoints-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpoints-get-openapi.md
 - name: Azure CDN API Endpoints Get
   x-api-slug: azure-cdn-api
   description: Gets an existing CDN endpoint with the specified endpoint name under
@@ -138,9 +138,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointname-get-openapi.md
 - name: Azure CDN API Endpoints Create
   x-api-slug: azure-cdn-api
   description: Creates a new CDN endpoint with the specified endpoint name under the
@@ -151,7 +151,7 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointname-put-openapi.md
 - name: Azure CDN API Endpoints Update
   x-api-slug: azure-cdn-api
   description: Updates an existing CDN endpoint with the specified endpoint name under
@@ -164,7 +164,7 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointname-patch-openapi.md
 - name: Azure CDN API Endpoints Delete
   x-api-slug: azure-cdn-api
   description: Deletes an existing CDN endpoint with the specified endpoint name under
@@ -175,9 +175,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointname-delete-openapi.md
 - name: Azure CDN API Endpoints Start
   x-api-slug: azure-cdn-api
   description: Starts an existing CDN endpoint that is on a stopped state.
@@ -187,9 +187,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamestart-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamestart-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamestart-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamestart-post-openapi.md
 - name: Azure CDN API Endpoints Stop
   x-api-slug: azure-cdn-api
   description: Stops an existing running CDN endpoint.
@@ -199,9 +199,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamestop-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamestop-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamestop-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamestop-post-openapi.md
 - name: Azure CDN API Endpoints Purge Content
   x-api-slug: azure-cdn-api
   description: Removes a content from CDN.
@@ -211,7 +211,7 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamepurge-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamepurge-post-openapi.md
 - name: Azure CDN API Endpoints Load Content
   x-api-slug: azure-cdn-api
   description: Pre-loads a content to CDN. Available for Verizon Profiles.
@@ -221,7 +221,7 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnameload-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnameload-post-openapi.md
 - name: Azure CDN API Endpoints Validate Custom Domain
   x-api-slug: azure-cdn-api
   description: Validates the custom domain mapping to ensure it maps to the correct
@@ -232,7 +232,7 @@ apis:
   tags: CDN,Endpointv
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamevalidatecustomdomain-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamevalidatecustomdomain-post-openapi.md
 - name: Azure CDN API Endpoints List Resource Usage
   x-api-slug: azure-cdn-api
   description: Checks the quota and usage of geo filters and custom domains under
@@ -243,9 +243,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecheckresourceusage-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecheckresourceusage-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecheckresourceusage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecheckresourceusage-post-openapi.md
 - name: Azure CDN API Origins List By Endpoint
   x-api-slug: azure-cdn-api
   description: Lists all of the existing origins within an endpoint.
@@ -255,9 +255,9 @@ apis:
   tags: CDN,Endpoint
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnameorigins-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnameorigins-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnameorigins-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnameorigins-get-openapi.md
 - name: Azure CDN API Origins Get
   x-api-slug: azure-cdn-api
   description: Gets an existing origin within an endpoint.
@@ -267,9 +267,9 @@ apis:
   tags: CDN,Orgins
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnameoriginsoriginname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnameoriginsoriginname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnameoriginsoriginname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnameoriginsoriginname-get-openapi.md
 - name: Azure CDN API Origins Update
   x-api-slug: azure-cdn-api
   description: Updates an existing origin within an endpoint.
@@ -279,7 +279,7 @@ apis:
   tags: CDN,Orgins
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnameoriginsoriginname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnameoriginsoriginname-patch-openapi.md
 - name: Azure CDN API Custom Domains List By Endpoint
   x-api-slug: azure-cdn-api
   description: Lists all of the existing custom domains within an endpoint.
@@ -289,9 +289,9 @@ apis:
   tags: CDN,Custom Domain
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomains-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomains-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomains-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomains-get-openapi.md
 - name: Azure CDN API Custom Domains Get
   x-api-slug: azure-cdn-api
   description: Gets an exisitng custom domain within an endpoint.
@@ -301,9 +301,9 @@ apis:
   tags: CDN,Custom Domain
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-get-openapi.md
 - name: Azure CDN API Custom Domains Create
   x-api-slug: azure-cdn-api
   description: Creates a new custom domain within an endpoint.
@@ -313,7 +313,7 @@ apis:
   tags: CDN,Custom Domain
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-put-openapi.md
 - name: Azure CDN API Custom Domains Delete
   x-api-slug: azure-cdn-api
   description: Deletes an existing custom domain within an endpoint.
@@ -323,9 +323,9 @@ apis:
   tags: CDN,Custom Domain
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainname-delete-openapi.md
 - name: Azure CDN API Custom Domains Disable Custom Https
   x-api-slug: azure-cdn-api
   description: Disable https delivery of the custom domain.
@@ -335,9 +335,9 @@ apis:
   tags: CDN,Custom Domain
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnamedisablecustomhttps-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnamedisablecustomhttps-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnamedisablecustomhttps-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnamedisablecustomhttps-post-openapi.md
 - name: Azure CDN API Custom Domains Enable Custom Https
   x-api-slug: azure-cdn-api
   description: Enable https delivery of the custom domain.
@@ -347,9 +347,9 @@ apis:
   tags: CDN,Custom Domain
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnameenablecustomhttps-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnameenablecustomhttps-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnameenablecustomhttps-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cdnprofilesprofilenameendpointsendpointnamecustomdomainscustomdomainnameenablecustomhttps-post-openapi.md
 - name: Azure CDN API Check Name Availability
   x-api-slug: azure-cdn-api
   description: Check the availability of a resource name. This is needed for resources
@@ -360,7 +360,7 @@ apis:
   tags: CDN,Name Availability
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoftcdnchecknameavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoft-cdnchecknameavailability-post-openapi.md
 - name: Azure CDN API List Resource Usage
   x-api-slug: azure-cdn-api
   description: Check the quota and actual usage of the CDN profiles under the given
@@ -371,9 +371,9 @@ apis:
   tags: CDN,Resource Usage
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoftcdncheckresourceusage-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoft-cdncheckresourceusage-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoftcdncheckresourceusage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/subscriptionssubscriptionidprovidersmicrosoft-cdncheckresourceusage-post-openapi.md
 - name: Azure CDN API List Operations
   x-api-slug: azure-cdn-api
   description: Lists all of the available CDN REST API operations.
@@ -383,9 +383,9 @@ apis:
   tags: CDN,Operations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoftcdnoperations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoft-cdnoperations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoftcdnoperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoft-cdnoperations-get-openapi.md
 - name: Azure CDN API Edge Nodes List
   x-api-slug: azure-cdn-api
   description: Lists all the edge nodes of a CDN service.
@@ -395,9 +395,9 @@ apis:
   tags: CDN,Edge Node
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoftcdnedgenodes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoft-cdnedgenodes-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoftcdnedgenodes-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cdn/master/_listings/azure-cdn/providersmicrosoft-cdnedgenodes-get-openapi.md
 - name: Azure CDN API
   x-api-slug: azure-cdn-api
   description: Ensuring a consistent user experience is important. If your websites
