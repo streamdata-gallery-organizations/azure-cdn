@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure CDN
 x-complete: 1
@@ -714,4 +713,3 @@ paths:
       tags:
       - CDN
       - Edge Node
----
